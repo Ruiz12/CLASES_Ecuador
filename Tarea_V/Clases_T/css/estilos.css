@@ -1,0 +1,182 @@
+h1{
+	color: #FF8C00;
+	text-align: center;
+	font-size: 2.3em;
+	text-shadow: 2px 2px 8px #F0E68C;
+	
+}
+
+h2{
+  color: #FF8C00;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 8px #F0E68C;
+  
+}
+
+#layout {
+	width: 80%;
+	max-width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 450px;
+  
+	
+}
+
+p {
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  text-shadow: 4px 4px 8px #F0E68C;
+
+}
+
+
+header {
+  background-color:rgba(0,0,0,1);
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  z-index: 10;
+  height: 60px;
+}
+
+header img {
+  width: 7%;
+  float: left;
+  height: 56px;
+  width: 100%;
+  max-width: 70%;
+
+
+}
+
+section div img{
+ width: 60%;
+
+
+
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+
+nav ul li {
+  float: right;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #BDB76B;
+  text-decoration: none;
+} 
+nav ul li:hover {
+  background: #7B68EE;
+}
+.contenido {
+  padding-top: 90px;
+
+}
+
+.bloques{
+clear: both;
+width: auto;
+display: flex;
+justify-content: space-around;
+align-items: stretch;
+
+}
+nav li ul {
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+nav li:hover > ul{
+	display: block;
+
+}
+
+
+
+@media ( max-width: 460px){
+	 #contenedor{
+		clear: both;
+		float: none;
+		margin: 0 auto;
+		margin-left: 15%;
+		width: 65%;
+	}
+	
+
+
+	
+}
+
+
+@import url();
+* {margin: 0; padding: 0; border: 0 none;}
+html, body {height: 100%; width: 100%; font-size: 1rem; font-family: 'Exo', sans-serif; font-weight: 100;}
+.cont-slider {
+    position: relative;
+    height: 90vh;
+    max-height: 50vh;
+    width: auto;
+    min-width:50vw;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider {
+    animation: deslizante 25s ease-out 0s backwards infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 500%;
+    height: 100%;
+}
+.slide {
+    display: inline-block;
+    position: relative;
+    width: 20%;
+    height: 100%;    
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.uno {
+  background-image: url(https://imagenes.universia.net/gc/net/images/ciencia-tecnologia/v/ve/ven/ventajas_y_desventajas_de_las_tics_en_la_educacion.jpg);}
+.dos {
+  background-image: url(https://www.yeeply.com/wp-content/uploads/2014/11/photo-1515351029128-8a8d584ab6b6-compressor-1.jpg);}
+.tres {
+  background-image: url(https://d3t4nwcgmfrp9x.cloudfront.net/upload/aplicaciones-para-ninos-aprendan-a-programar.jpg);}
+.cuatro {
+  background-image: url(https://lh3.googleusercontent.com/proxy/nixGDaiqIW-JjQnOARFT1GOEG2K3yxwGnvanp62UjdceElewACuPfhrdTKh59Sod4z5QMOilCwAzpeor7mV6auK1MV9fqnnjH-e4XUrDCrfVtB4PRXhBoAEzpSKVIiA9d7N1MpVTR8mncuHd4SB0hiYl_oYoW0uLMfeoSmGctQrGCzTWT1tktOmbkw6fB0giOAxPuwa1hnk2JTWkwnOYJY6WH42G);}
+.cinco {
+  background-image: url(https://inbest.solutions/wp-content/uploads/2018/06/business-3324394_960_720.jpg);} 
+
+@keyframes deslizante {
+  0% {left: 0%; }
+  15% {left: 0%; }
+  20% {left: -100%; }
+  35% {left: -100%; }
+  40% {left: -200%; }  
+  55% {left: -200%; }
+  60% {left: -300%; }
+  75% {left: -300%; }   
+  100% {left: 0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
